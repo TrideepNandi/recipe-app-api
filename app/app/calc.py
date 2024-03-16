@@ -1,15 +1,15 @@
 """
 calculator functions
 """
+
 def add(x, y):
-    """add x and y and return the result"""
+    """Add x and y and return the result"""
     return x + y
+
 def subtract(x, y):
-    """subtract x and y and return the result"""
-
-
+    """Subtract x and y and return the absolute result"""
     res = x - y
     if res < 0:
-        return -1*res
+        return -1 * res
     else:
         return res
